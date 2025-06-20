@@ -148,8 +148,8 @@ function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href={process.env.PUBLIC_URL + "/RESUME.pdf"}
-                download
-                /* Make sure your resume.pdf file is in the /public folder of your project */
+                download="resume.pdf"
+                /* Make sure your RESUME.pdf file is in the /public folder of your project */
               >
                 Resume
               </Button>
