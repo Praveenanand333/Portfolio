@@ -147,9 +147,9 @@ function Hero() {
                 component={motion.a}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="/Portfolio/resume.pdf"
+                href={process.env.PUBLIC_URL + "/RESUME.pdf"}
                 download
-                /* CUSTOM-DONE: Add your resume.pdf file to the /public folder of your project */
+                /* Make sure your resume.pdf file is in the /public folder of your project */
               >
                 Resume
               </Button>
