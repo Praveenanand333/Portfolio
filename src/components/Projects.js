@@ -38,7 +38,7 @@ function Projects() {
       title: 'Autism Risk Prediction using Multi-modal Data',
       shortDescription: 'ML/DL pipeline for autism risk diagnosis using multiple data sources.',
       fullDescription: 'Developed a diagnostic ML/DL pipeline that fuses image, EEG, AQ survey, and eye-tracking inputs to identify autism risk. Applied modality-specific deep learning models and ensemble bagging for robust decision-making.',
-      image: 'https://via.placeholder.com/600x400',
+      image: '/Portfolio/images/autism.jpg',
       /* CUSTOM-TODO: Add your project image to the /public/images folder and update this path to "/Portfolio/images/quickply.jpg" */
       techStack: ['Machine Learning', 'Deep Learning', 'Neural Networks', 'Transformers', 'Hyper Parameter Tuning', 'Optimizers'],
       category: 'ML/AI',
@@ -53,7 +53,7 @@ function Projects() {
       title: 'Academic Analyser – Full-Stack Performance Tracker',
       shortDescription: 'Role-based academic monitoring system with dynamic dashboards.',
       fullDescription: 'Built a role-based academic monitoring system featuring dynamic dashboards, authentication, and CRUD APIs for educators and students to track academic progress and analytics securely.',
-      image: 'https://via.placeholder.com/600x400',
+      image: '/Portfolio/images/academic-analyser.jpg',
       /* CUSTOM-TODO: Add your project image to the /public/images folder and update this path to "/Portfolio/images/quickply.jpg" */
       techStack: ['ReactJS', 'NodeJS', 'ExpressJS', 'MySQL', 'JWT', 'Bcrypt', 'ChartJS', 'REST APIs'],
       category: 'Web Development',
@@ -68,7 +68,7 @@ function Projects() {
       title: 'QuickPly – Job Application Platform',
       shortDescription: 'Full-stack recruitment platform with job listings and resume handling.',
       fullDescription: 'Built a full-stack recruitment system using JSP, PostgreSQL, and JDBC, featuring user authentication, CRUD operations for profiles and job listings, and resume handling via dynamic JSP-driven interfaces.',
-      image: 'https://via.placeholder.com/600x400',
+      image: '/Portfolio/images/quickply.jpg',
       /* CUSTOM-TODO: Add your project image to the /public/images folder and update this path to "/Portfolio/images/quickply.jpg" */
       techStack: ['JSP', 'PostgreSQL', 'JDBC', 'HTML/CSS'],
       category: 'Web Development',
