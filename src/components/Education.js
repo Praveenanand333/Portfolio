@@ -33,7 +33,7 @@ function Education() {
       period: '2021 – 2025',
       grade: 'GPA: 8.34',
       location: 'Chennai, India',
-      details: 'Pursuing a degree in Information Technology with focus on software development, cloud computing, and machine learning.',
+      details: 'Completed B.Tech degree in Information Technology with focus on software development, cloud computing, and machine learning.',
       logo: '/Portfolio/images/ceg-logo.png',
       /* CUSTOM-DONE: Add your institution logos to the /public/images folder and update this path to "/Portfolio/images/ceg-logo.jpg" or similar */
     },
