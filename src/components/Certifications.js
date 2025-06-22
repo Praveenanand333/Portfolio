@@ -9,47 +9,11 @@ import {
   Container,
   useTheme,
 } from '@mui/material';
-import {
-  WorkspacePremium as CertificateIcon,
-  School as EducationIcon,
-  Engineering as EngineeringIcon,
-} from '@mui/icons-material';
-import { motion } from 'framer-motion';
 
+import { motion } from 'framer-motion';
+import { certificationData } from '../Data/CertificationData';
 function Certifications() {
   const theme = useTheme();
-
-  // Certificate data
-  const certifications = [
-    {
-      id: 1,
-      title: 'MERN stack powered by Mongo DB',
-      issuer: 'MongoDB',
-      date: '2024',
-      description: 'Comprehensive certification covering MongoDB, Express.js, React, and Node.js stack development.',
-      icon: <EngineeringIcon fontSize="large" />,
-      color: theme.palette.mode === 'dark' ? '#52a9ff' : '#3a86ff',
-    },
-    {
-      id: 2,
-      title: 'Journey to Cloud: Envisioning Your Solution',
-      issuer: 'IBM skillsBuild',
-      date: '2023',
-      description: 'Certification focused on cloud architecture, deployment strategies, and solution design.',
-      icon: <EducationIcon fontSize="large" />,
-      color: theme.palette.mode === 'dark' ? '#ff9e40' : '#fb5607',
-    },
-    {
-      id: 3,
-      title: 'CyberSecurity Essentials',
-      issuer: 'Cisco',
-      date: '2023',
-      description: 'Certification covering cybersecurity fundamentals, best practices, and threat mitigation strategies.',
-      icon: <CertificateIcon fontSize="large" />,
-      color: theme.palette.mode === 'dark' ? '#60d394' : '#38b000',
-    },
-  ];
-
   // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -122,7 +86,7 @@ function Certifications() {
 
         <motion.div variants={containerVariants} initial="hidden" animate="visible">
           <Grid container spacing={4} justifyContent="center" sx={{ mt: 2 }}>
-            {certifications.map((cert, index) => {
+            {certificationData.map((cert, index) => {
               // Generate random rotation for the cards
               const randomRotation = index % 2 === 0 ? -1 : 1;
               

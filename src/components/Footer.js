@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Container, Typography, IconButton, Link, Divider, Grid, useTheme } from '@mui/material';
 import { Email, LinkedIn, GitHub, Code, ArrowUpward } from '@mui/icons-material';
 import { motion } from 'framer-motion';
+import socialUrl from '../Data/SocialUrl';
 
 function Footer() {
   const theme = useTheme();
@@ -15,10 +16,10 @@ function Footer() {
   };
 
   const socialLinks = [
-    { icon: <Email />, url: 'mailto:praveenanand333@gmail.com', label: 'Email' },
-    { icon: <LinkedIn />, url: 'https://www.linkedin.com/in/praveenveerachamy/', label: 'LinkedIn' },
-    { icon: <GitHub />, url: 'https://github.com/Praveenanand333', label: 'GitHub' },
-    { icon: <Code />, url: 'https://leetcode.com/u/praveenanand333/', label: 'LeetCode' },
+    { icon: <Email />, url: socialUrl.email, label: 'Email' },
+    { icon: <LinkedIn />, url: socialUrl.linkedin, label: 'LinkedIn' },
+    { icon: <GitHub />, url: socialUrl.github, label: 'GitHub' },
+    { icon: <Code />, url: socialUrl.leetcode, label: 'LeetCode' },
   ];
 
   const quickLinks = [

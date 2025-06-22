@@ -16,6 +16,7 @@ import {
   GitHub as GitHubIcon,
 } from '@mui/icons-material';
 import { motion } from 'framer-motion';
+import socialUrl from '../Data/SocialUrl';
 
 function Hero() {
   const theme = useTheme();
@@ -166,7 +167,7 @@ function Hero() {
             >
               <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.95 }}>
                 <Button 
-                  href="https://www.linkedin.com/in/praveenveerachamy/"
+                  href={socialUrl.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
                   startIcon={<LinkedInIcon />}
@@ -178,7 +179,7 @@ function Hero() {
               
               <motion.div whileHover={{ y: -5 }} whileTap={{ scale: 0.95 }}>
                 <Button 
-                  href="https://github.com/Praveenanand333"
+                  href={socialUrl.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   startIcon={<GitHubIcon />}
