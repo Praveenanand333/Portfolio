@@ -26,12 +26,12 @@ export const skillCategories = [
     {
       name: 'Cloud Platforms',
       icon: <CloudIcon fontSize="large" />,
-      skills: ['AWS S3', 'AWS Lambda', 'SageMaker', 'API Gateway', 'AWS Bedrock'],
+      skills: ['AWS S3', 'AWS Lambda', 'SageMaker', 'API Gateway', 'AWS Bedrock', 'DynamoDB', 'EC2', 'SecretsManager', 'SNS'],
     },
     {
-      name: 'Machine Learning',
+      name: 'AI & ML',
       icon: <AIIcon fontSize="large" />,
-      skills: ['Classical ML', 'Deep Learning', 'Neural Networks', 'Hyper Parameter Tuning'],
+      skills: ['Classical ML', 'Deep Learning', 'Neural Networks', 'LLMs', 'Model Tuning', 'Prompt Engineering'],
     },
     {
       name: 'CS Fundamentals',

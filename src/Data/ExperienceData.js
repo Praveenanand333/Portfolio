@@ -3,11 +3,40 @@
 export const experienceData = [
   {
     company: 'Amazon',
+    role: 'Software Developer Engineer-1',
+    period: 'July 2025 - Present',
+    location: 'Chennai',
+    description:
+      'Building scalable cloud-native applications and automated testing infrastructure for device teams.',
+    logoUrl: '/Portfolio/images/amazon-logo.png',
+    achievements: [
+      {
+        title: 'Device Emulator Infrastructure',
+        description:
+          'Built device emulator infrastructure with test orchestration framework and CI/CD pipelines for automated provisioning, parallel test execution, and multi-environment orchestration, reducing test time by 60-70% and feedback cycles from hours to minutes.',
+        technologies: ['Python', 'CI/CD', 'Test Automation', 'Unix'],
+      },
+      {
+        title: 'Serverless Testing System',
+        description:
+          'Architected a 4-layer serverless testing system (SNS/Lambda/DynamoDB) that auto-triggers functional test suites on device emulators for code reviews, delivering real-time test results within developer workflows.',
+        technologies: ['AWS Lambda', 'AWS SNS', 'DynamoDB', 'Python'],
+      },
+      {
+        title: 'Auto-scaling Infrastructure',
+        description:
+          'Developed auto-scaling infrastructure using Lambda orchestration, DynamoDB state management, and automated AMI pipelines, enabling on-demand EC2 provisioning with dynamic scaling capabilities.',
+        technologies: ['AWS Lambda', 'DynamoDB', 'EC2', 'AMI', 'Python'],
+      },
+    ],
+  },
+  {
+    company: 'Amazon',
     role: 'Software Developer Engineer Intern',
     period: 'January 2025 - June 2025',
     location: 'Chennai',
     description:
-      'Working as an SDE Intern focusing on developing tools for Kindle devices and AWS-based solutions.',
+      'Worked as an SDE Intern focusing on developing tools for Kindle devices and AWS-based solutions.',
     logoUrl: '/Portfolio/images/amazon-logo.png',
     achievements: [
       {
